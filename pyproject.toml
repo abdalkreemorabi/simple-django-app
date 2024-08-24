@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iih"
+version = "0.1.0"
+description = ""
+authors = ["abdalkreemorabi <abdalkreemorabi11@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.1"
+django-crispy-forms = "^2.3"
+crispy-bootstrap4 = "^2024.1"
+faker = "^28.0.0"
+psycopg2-binary = "^2.9.9"
+requests = "^2.32.3"
+django-environ = "^0.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
